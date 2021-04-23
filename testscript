@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "starting the script"
+useradd test
+echo "User xyz is added"
+touch /tmp/jenkins1
+echo "The file is created"
+chmod 777 /tmp/jenkins1
+echo "Permissions given"
+sleep 30
+echo "succefully Build"
+
